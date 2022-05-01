@@ -2616,6 +2616,9 @@ body {
 
 .bg-white {
   background-color: #FFFFFF !important; }
+.bg-yellow {
+  background-color: #feb031;
+}
 
 .dropdown-menu {
   border: 0;
@@ -5160,7 +5163,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid #f9b031;
   border-radius: 50%;
   height: 310px;
   width: 310px;
