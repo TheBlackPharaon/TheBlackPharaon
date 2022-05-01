@@ -5198,6 +5198,23 @@ Created using IcoMoon - icomoon.io
 #about .card-body {
   color: #ffffff
 }
+.btnlinkedin:hover {
+  background-color: #0072b1;
+}
+.btngithub:hover{
+  background-color: #171515;
+}
+.btnbehance:hover{
+  background-color: #053eff;
+}
+.btninstagram:hover{
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
 /* Professional Skills Style */
 .title{
   color: #fff;
@@ -5269,14 +5286,13 @@ Created using IcoMoon - icomoon.io
     margin-bottom: 0; } }
 
 /* Contact Information Style */
-.cc-contact .row{
-  background-color: none!important;
+.cc-contact .card{
+  background-color: #15262e;
 }
-.cc-contact .card mb-0{
-  background-color: #15262e!important;
+.cc-contact .row{
+  background-color: none;
 }
 .cc-contact-information {
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -5321,5 +5337,5 @@ a.credit {
   background-color: #15262e;
 }
 .row{
-  background-color: #15262e;
+  background-color: none;
 }
