@@ -7,7 +7,7 @@
     outline: 0;
     box-sizing: border-box;
     list-style: none;
-    text-align: none;
+    text-decoration: none;
 }
 
 :root {
@@ -37,7 +37,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bgblueyellow.png);
+    background-image: url(../src/assets/bg-texture.png);
 }
 
 /* GS */
@@ -121,7 +121,8 @@ img {
     }
 }
 
-/* SD */
+/*SD*/ 
+
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container--width-sm);
