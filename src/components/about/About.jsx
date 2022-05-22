@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/profilepic01.jpg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import {FaCity} from 'react-icons/fa'
+import {IoLanguageSharp} from 'react-icons/io5'
+import {MdOutlineEmail} from 'react-icons/md'
 
 
 function About() {
@@ -20,30 +20,29 @@ function About() {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <FaCity className="about__icon" />
+              <h5>Address</h5>
+              <small>Lomé, Togo</small>
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <IoLanguageSharp className="about__icon" />
+              <h5>Languages</h5>
+              <small>English, French, Spanish</small>
             </article>
 
             <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <MdOutlineEmail className="about__icon" />
+              <h5>Mail</h5>
+              <small>othnielignacio@gmail.com</small>
             </article>
           </div>
 
           <p>
-          Quis id id exercitation magna duis culpa velit quis nulla tempor. Ad reprehenderit 
-          sunt elit duis tempor veniam non voluptate sit pariatur aliqua cupidatat pariatur. 
-          Laboris cillum mollit aute proident mollit ex amet duis minim velit. Excepteur ad qui 
-          Lorem magna. Qui velit veniam ea reprehenderit ad commodo labore ea occaecat excepteur
-           sit dolor.
+          Hello ! I am Othniel Aghey. Developer, Graphic Designer, Video Editor, and Creative.
+          Student in Computer Science degree of Software Engineering.
+          <br/>
+          Passionate about digital, computer technologies.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
