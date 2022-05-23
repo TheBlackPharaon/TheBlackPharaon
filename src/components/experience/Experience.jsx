@@ -2,6 +2,80 @@ import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
 
+const devdata = [
+  {
+    skill: 'HTML',
+    level: 'Experimented',
+  }, 
+  {
+    skill: 'CSS',
+    level: 'Experimented',
+  }, 
+  {
+    skill: 'JavaScript',
+    level: 'Medium',
+  }, 
+  {
+    skill: 'Bootstrap',
+    level: 'Experimented',
+  }, 
+  {
+    skill: 'PHP',
+    level: 'Basic',
+  }, 
+  {
+    skill: 'React',
+    level: 'Medium',
+  },
+  {
+    skill: 'Java',
+    level: 'Meduim',
+  }, 
+  {
+    skill: 'Spring',
+    level: 'Medium',
+  }, 
+  {
+    skill: 'Flutter',
+    level: 'Medium',
+  },
+  {
+    skill: 'UX/UI Design',
+    level: 'Experimented',
+  }
+]
+
+const graphicdesigndata = [
+  {
+    skill: 'Adobe Photoshop',
+    level: 'Experimented',
+  }, 
+  {
+    skill: 'Adobe Illustrator',
+    level: 'Experimented',
+  }, 
+  {
+    skill: 'Adobe InDesign',
+    level: 'Medium',
+  }, 
+  {
+    skill: 'Adobe Premiere Pro',
+    level: 'Medium',
+  },
+  {
+    skill: 'Adobe After Effect',
+    level: 'Medium',
+  }, 
+  {
+    skill: 'Figma',
+    level: 'Medium',
+  }, 
+  {
+    skill: 'Adobe XD',
+    level: 'Experimented',
+  },
+]
+
 const Experience = () => {
   return (
     <section id="experience">
@@ -11,111 +85,42 @@ const Experience = () => {
       <div className="container experience__container">
 
         <div className="experience__frontend">
-          <h3>Fontend Development</h3>
+          <h3>Development</h3>
           <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>  
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>  
-                <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>  
-                <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>  
-                <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-              <h4>PHP</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>React</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
+            {
+              devdata.map(({skill, level}, index) => {
+                return (
+                  <article key={index} className="experience__details">
+                  <BsPatchCheckFill className="experience__details-icon" />
+                  <div>  
+                    <h4>{skill}</h4>
+                    <small className="text-light">{level}</small>
+                  </div>
+                </article>
+                )
+              })
+            }
           </div>
         </div>
 
-        <div className="experience__backend">
-          <h3>Backend Development</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <div>
+        <div className="experience__frontend">
+        <h3>Graphic Design</h3>
+        <div className="experience__content">
+          {
+            graphicdesigndata.map(({skill, level}, index) => {
+              return (
+                <article key={index} className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" />
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <div>
-                <BsPatchCheckFill className="experience__details-icon" />
-                <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <div>
-                <BsPatchCheckFill className="experience__details-icon" />
-                <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            
-            <article className="experience__details">
-              <div>
-                <BsPatchCheckFill className="experience__details-icon" />
-                <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <div>
-                <BsPatchCheckFill className="experience__details-icon" />
-                <h4>PHP</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <div>
-                <BsPatchCheckFill className="experience__details-icon" />
-                <h4>React</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-          </div>
+                <div>
+                  <h4>{skill}</h4>
+                  <small className="text-light">{level}</small>
+                </div>
+              </article>
+              )
+            })
+          }
         </div>
+      </div>
 
       </div>
 

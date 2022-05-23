@@ -11,7 +11,7 @@ const HeaderSocials = () => {
       <a href="https://www.behance.net/othnielaghey" target="_blank" rel="noreferrer"><FaBehanceSquare/></a>
       <a href="https://www.instagram.com/othniel.aghey/" target="_blank" rel="noreferrer"><FaInstagram/></a>
     </div>
-  )
+  ) 
 }
 
 export default HeaderSocials
