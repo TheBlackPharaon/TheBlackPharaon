@@ -5,7 +5,37 @@ import {BiCheck} from 'react-icons/bi'
 const devservicedata = [
   {
     title: 'Web Integration'
-  }
+  },
+  {
+    title: 'Website Conception'
+  },
+  {
+    title: 'Mobile App Conception'
+  },
+  {
+    title: 'Webmastering'
+  },
+  {
+    title: 'Web Integration'
+  },
+]
+
+const graphicdesignservicedata = [
+  {
+    title: 'Logo Conception'
+  },
+  {
+    title: 'Brand Identity'
+  },
+  {
+    title: 'UX/UI Design'
+  },
+  {
+    title: 'Flyers'
+  },
+  {
+    title: 'Video Edition'
+  },
 ]
 
 const Services = () => {
@@ -41,25 +71,16 @@ const Services = () => {
             </div>
 
             <ul className="service__list">
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>UI / UX design.</p>
-              </li>
-
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Voluptate anim qui laboris et ex mollit esse.</p>
-              </li>
-
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Voluptate anim qui laboris et ex mollit esse.</p>
-              </li>
-
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Voluptate anim qui laboris et ex mollit esse.</p>
-              </li>
+            {
+              graphicdesignservicedata.map(({title}, index) => {
+                return (
+                  <li>
+                    <BiCheck className="service__list-icon"/>
+                    <p>{title}.</p>
+                  </li>
+                )
+              })
+            }
             </ul>
           </article>
 

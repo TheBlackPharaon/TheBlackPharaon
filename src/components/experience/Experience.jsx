@@ -38,10 +38,6 @@ const devdata = [
   {
     skill: 'Flutter',
     level: 'Medium',
-  },
-  {
-    skill: 'UX/UI Design',
-    level: 'Experimented',
   }
 ]
 
@@ -74,6 +70,10 @@ const graphicdesigndata = [
     skill: 'Adobe XD',
     level: 'Experimented',
   },
+  {
+    skill: 'UX/UI Design',
+    level: 'Experimented',
+  }
 ]
 
 const Experience = () => {
