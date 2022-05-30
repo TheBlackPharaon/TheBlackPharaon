@@ -3,6 +3,7 @@ import './portfolio.css'
 import clock from '../../assets/portfolio/clock.png'
 import shoppingcart from '../../assets/portfolio/shoppingcart.png'
 import rolexwine from '../../assets/portfolio/rolexwine.png'
+import ericmo from '../../assets/portfolio/ericmo.png'
 
 
 const devdata = [
@@ -27,9 +28,22 @@ const graphicdesigndata = [
     id: '1',
     image: rolexwine,
     title: 'Rolew Wine',
-    behance: 'https://www.behance.net/gallery/141977049/What-If-Rolex-Was-A-Branded-Wine',
-    instagram: 'https://www.instagram.com/p/CcGV6JBqU4Y/'
+    link1: 'Instagram',
+    link2: 'Behance',
+    link2content: 'https://www.instagram.com/p/CcGV6JBqU4Y/',
+    link1content: 'https://www.behance.net/gallery/141977049/What-If-Rolex-Was-A-Branded-Wine'
+
+  },
+  {
+    id: '2',
+    image: ericmo,
+    title: 'La Chronique D\'EricMo',
+    link1: 'Instagram',
+    link2: 'YouTube',
+    link1content: 'https://www.instagram.com/ericmo14/guide/mes-chroniques/18245589145014301/?utm_medium=copy_link',
+    link2content: 'https://www.youtube.com/channel/UCMJXCB9TT8jrPjTdXBYWPbQ',
   }
+
 ]
 
 const Portfolio = () => {
@@ -67,7 +81,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          graphicdesigndata.map(({id, image, title, behance, instagram}) => {
+          graphicdesigndata.map(({id, image, title, link1, link2, link1content, link2content}) => {
             return (
               <article key={id} className="portfolio__item" >
                 <div className="portfolio__item-image">
@@ -75,8 +89,8 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={instagram} className="btn" target="_blank">Instagram</a>
-                  <a href={behance} className="btn btn-primary" target="_blank">Behance</a>
+                  <a href={link1content} className="btn" target="_blank">{link1}</a>
+                  <a href={link2content} className="btn btn-primary" target="_blank">{link2}</a>
                 </div>
               </article>
             )
