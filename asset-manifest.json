@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.23955f47.css",
-    "main.js": "/static/js/main.51f08600.js",
-    "static/media/img1.png": "/static/media/img1.26bd422873a0830113d1.png",
+    "main.js": "/static/js/main.ac24ba2d.js",
+    "static/media/img1.png": "/static/media/img1.d119a5b928c87f0ff041.png",
     "static/media/rolexwine.png": "/static/media/rolexwine.55c462b0654e8500eb31.png",
     "static/media/clock.png": "/static/media/clock.e67f7d5046c2722605a2.png",
     "static/media/shoppingcart.png": "/static/media/shoppingcart.e96d14d4ed663092a59f.png",
@@ -11,10 +11,10 @@
     "static/media/cvavril2022.pdf": "/static/media/cvavril2022.7aef4bb13b1f1c45257f.pdf",
     "index.html": "/index.html",
     "main.23955f47.css.map": "/static/css/main.23955f47.css.map",
-    "main.51f08600.js.map": "/static/js/main.51f08600.js.map"
+    "main.ac24ba2d.js.map": "/static/js/main.ac24ba2d.js.map"
   },
   "entrypoints": [
     "static/css/main.23955f47.css",
-    "static/js/main.51f08600.js"
+    "static/js/main.ac24ba2d.js"
   ]
 }
