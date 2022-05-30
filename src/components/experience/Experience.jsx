@@ -79,8 +79,8 @@ const graphicdesigndata = [
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>What Skills I have</h5>
-      <h2>My experience</h2>
+      <h5>What Skills Do I have</h5>
+      <h2>My Skills</h2>
 
       <div className="container experience__container">
 
@@ -106,19 +106,19 @@ const Experience = () => {
         <div className="experience__frontend">
         <h3>Graphic Design</h3>
         <div className="experience__content">
-          {
-            graphicdesigndata.map(({skill, level}, index) => {
-              return (
-                <article key={index} className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" />
-                <div>
-                  <h4>{skill}</h4>
-                  <small className="text-light">{level}</small>
-                </div>
-              </article>
-              )
-            })
-          }
+            {
+              graphicdesigndata.map(({ skill, level }, index) => {
+                return (
+                  <article key={index} className="experience__details">
+                    <BsPatchCheckFill className="experience__details-icon" />
+                    <div>
+                      <h4>{skill}</h4>
+                      <small className="text-light">{level}</small>
+                    </div>
+                  </article>
+                )
+              })
+            }
         </div>
       </div>
 

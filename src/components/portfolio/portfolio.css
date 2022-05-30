@@ -1,12 +1,12 @@
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    gap: 4rem;
 }
 
-.portfolio__item {
+.portfolio__item { 
     background: var(--color-bg-variant);
-    padding: 1.2rem;
+    padding: 1.2rem 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -20,6 +20,13 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+}
+
+.portfolio__item-image img {
+    display: block;
+    height: 222px;
+    object-fit: cover;
+    width: -webkit-fill-available;
 }
 
 .portfolio__item h3 {

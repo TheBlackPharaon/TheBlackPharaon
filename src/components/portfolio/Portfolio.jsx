@@ -1,45 +1,49 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio/portfolio5.png'
-import IMG6 from '../../assets/portfolio/portfolio6.jpg'
+import clock from '../../assets/portfolio/clock.png'
+import shoppingcart from '../../assets/portfolio/shoppingcart.png'
+import rolexwine from '../../assets/portfolio/rolexwine.png'
 
-const data = [
+
+const devdata = [
   {
     id: '1',
-    image: IMG1,
-    title: 'This is a portfolio item title',
-    github: '',
-    demo: ''
+    image: clock,
+    title: 'Analog & Digital Clock',
+    github: 'https://github.com/othnielaghey/analog-digital-clock',
+    demo: 'https://othnielaghey.github.io/analog-digital-clock/'
   },
   {
     id: '2',
-    image: IMG2,
-    title: 'This is a portfolio item title',
-    github: '',
-    demo: ''
-  },
+    image: shoppingcart,
+    title: 'Shopping Cart',
+    github: 'https://github.com/othnielaghey/JavaScript-Shopping-Cart',
+    demo: 'https://othnielaghey.github.io/JavaScript-Shopping-Cart/'
+  }
+]
+
+const graphicdesigndata = [
   {
-    id: '3',
-    image: IMG3,
-    title: 'This is a portfolio item title',
-    github: '',
-    demo: ''
-  },
+    id: '1',
+    image: rolexwine,
+    title: 'Rolew Wine',
+    behance: 'https://www.behance.net/gallery/141977049/What-If-Rolex-Was-A-Branded-Wine',
+    instagram: 'https://www.instagram.com/p/CcGV6JBqU4Y/'
+  }
 ]
 
 const Portfolio = () => {
   return (
-    <section id="portfolio">
+    <bloc id="portfolio">
       <h5>My recent Work</h5>
       <h2>Portfolio</h2>
 
+      <h5>Devlopment</h5>
+      <br/>
+
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          devdata.map(({id, image, title, github, demo}) => {
             return (
               <article key={id} className="portfolio__item" >
                 <div className="portfolio__item-image">
@@ -47,7 +51,7 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className="btn">Github</a>
+                  <a href={github} className="btn" target="_blank">Github</a>
                   <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a>
                 </div>
               </article>
@@ -55,7 +59,31 @@ const Portfolio = () => {
           })
         }
       </div>
-    </section>
+
+      <br/>
+      <br/>
+      <h5>Graphic Design</h5>
+      <br/>
+
+      <div className="container portfolio__container">
+        {
+          graphicdesigndata.map(({id, image, title, behance, instagram}) => {
+            return (
+              <article key={id} className="portfolio__item" >
+                <div className="portfolio__item-image">
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio__item-cta">
+                  <a href={instagram} className="btn" target="_blank">Instagram</a>
+                  <a href={behance} className="btn btn-primary" target="_blank">Behance</a>
+                </div>
+              </article>
+            )
+          })
+        }
+      </div>
+    </bloc>
   )
 }
 

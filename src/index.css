@@ -62,12 +62,19 @@ section {
     height: 100vh;
 }
 
-section > h2, section > h5 {
+bloc {
+    margin-top: 8rem;
+    height: 200vh;
+}
+
+section > h2, section > h5,
+bloc > h2, bloc > h5 {
     text-align: center;
     color: var(--colot-light);
 }
 
-section > h2 {
+section > h2,
+bloc > h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
 }
@@ -139,5 +146,17 @@ img {
 
     section > h2 {
         margin-bottom: 2rem;
+    }
+    
+    bloc {
+        margin-top: 20rem;
+    }
+
+    bloc > h2 {
+        margin-bottom: 2rem;
+    }
+
+    bloc h5:first-child {
+        margin-top: 25rem;
     }
 }
