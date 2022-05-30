@@ -28,6 +28,10 @@ const devdata = [
     level: 'Medium',
   },
   {
+    skill: 'Angular',
+    level: 'Medium',
+  },
+  {
     skill: 'Java',
     level: 'Meduim',
   }, 

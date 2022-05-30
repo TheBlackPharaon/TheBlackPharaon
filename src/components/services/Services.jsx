@@ -16,7 +16,7 @@ const devservicedata = [
     title: 'Webmastering'
   },
   {
-    title: 'Web Integration'
+    title: 'Website Redesign'
   },
 ]
 
@@ -31,7 +31,7 @@ const graphicdesignservicedata = [
     title: 'UX/UI Design'
   },
   {
-    title: 'Flyers'
+    title: 'Posters, Banners, Flyers'
   },
   {
     title: 'Video Edition'
