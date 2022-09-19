@@ -13,7 +13,7 @@ const devdata = [
   }, 
   {
     skill: 'JavaScript',
-    level: 'Medium',
+    level: 'Experimented',
   }, 
   {
     skill: 'Bootstrap',
@@ -25,7 +25,7 @@ const devdata = [
   }, 
   {
     skill: 'React',
-    level: 'Medium',
+    level: 'Experimented',
   },
   {
     skill: 'Angular',
@@ -41,7 +41,7 @@ const devdata = [
   }, 
   {
     skill: 'Flutter',
-    level: 'Medium',
+    level: 'Experimented',
   }
 ]
 
@@ -60,7 +60,7 @@ const graphicdesigndata = [
   }, 
   {
     skill: 'Adobe Premiere Pro',
-    level: 'Medium',
+    level: 'Experimented',
   },
   {
     skill: 'Adobe After Effect',
