@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import malamu from '../../assets/portfolio/malamu.png'
 import clock from '../../assets/portfolio/clock.png'
 import shoppingcart from '../../assets/portfolio/shoppingcart.png'
 import rolexwine from '../../assets/portfolio/rolexwine.png'
@@ -9,13 +10,20 @@ import ericmo from '../../assets/portfolio/ericmo.png'
 const devdata = [
   {
     id: '1',
+    image: malamu,
+    title: 'Malamu Africa',
+    github: '',
+    demo: 'https://malamu-africa.org/'
+  },  
+  {
+    id: '2',
     image: clock,
     title: 'Analog & Digital Clock',
     github: 'https://github.com/othnielaghey/analog-digital-clock',
     demo: 'https://othnielaghey.github.io/analog-digital-clock/'
   },
   {
-    id: '2',
+    id: '3',
     image: shoppingcart,
     title: 'Shopping Cart',
     github: 'https://github.com/othnielaghey/JavaScript-Shopping-Cart',
