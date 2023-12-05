@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.23955f47.css",
-    "main.js": "/static/js/main.ac24ba2d.js",
+    "main.css": "/static/css/main.a83632e5.css",
+    "main.js": "/static/js/main.c2ea9821.js",
     "static/media/img1.png": "/static/media/img1.d119a5b928c87f0ff041.png",
     "static/media/rolexwine.png": "/static/media/rolexwine.55c462b0654e8500eb31.png",
     "static/media/clock.png": "/static/media/clock.e67f7d5046c2722605a2.png",
     "static/media/shoppingcart.png": "/static/media/shoppingcart.e96d14d4ed663092a59f.png",
     "static/media/profilepic01.jpg": "/static/media/profilepic01.27ba87d2aac7f6ea1b67.jpg",
     "static/media/ericmo.png": "/static/media/ericmo.f788ab29f68d6d08841a.png",
+    "static/media/malamu.png": "/static/media/malamu.5050d8ca4d4357adbe53.png",
     "static/media/cvavril2022.pdf": "/static/media/cvavril2022.7aef4bb13b1f1c45257f.pdf",
+    "static/media/oa.png": "/static/media/oa.6eb0a8345e02d542ef51.png",
     "index.html": "/index.html",
-    "main.23955f47.css.map": "/static/css/main.23955f47.css.map",
-    "main.ac24ba2d.js.map": "/static/js/main.ac24ba2d.js.map"
+    "main.a83632e5.css.map": "/static/css/main.a83632e5.css.map",
+    "main.c2ea9821.js.map": "/static/js/main.c2ea9821.js.map"
   },
   "entrypoints": [
-    "static/css/main.23955f47.css",
-    "static/js/main.ac24ba2d.js"
+    "static/css/main.a83632e5.css",
+    "static/js/main.c2ea9821.js"
   ]
 }
