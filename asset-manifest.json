@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a83632e5.css",
-    "main.js": "/static/js/main.c2ea9821.js",
+    "main.js": "/static/js/main.c06bbb0d.js",
     "static/media/img1.png": "/static/media/img1.d119a5b928c87f0ff041.png",
     "static/media/rolexwine.png": "/static/media/rolexwine.55c462b0654e8500eb31.png",
     "static/media/clock.png": "/static/media/clock.e67f7d5046c2722605a2.png",
@@ -13,10 +13,10 @@
     "static/media/oa.png": "/static/media/oa.6eb0a8345e02d542ef51.png",
     "index.html": "/index.html",
     "main.a83632e5.css.map": "/static/css/main.a83632e5.css.map",
-    "main.c2ea9821.js.map": "/static/js/main.c2ea9821.js.map"
+    "main.c06bbb0d.js.map": "/static/js/main.c06bbb0d.js.map"
   },
   "entrypoints": [
     "static/css/main.a83632e5.css",
-    "static/js/main.c2ea9821.js"
+    "static/js/main.c06bbb0d.js"
   ]
 }
